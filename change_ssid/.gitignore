@@ -1,0 +1,24 @@
+# User Environments
+env_user.py
+.env
+
+# Virtual Environments
+.venv
+venv/
+
+# Version and Dependency Management
+.python-version
+Pipfile.lock
+
+# IDE / Text-Editor Artifacts
+.vscode
+.idea
+
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS Artifacts
+.DS_Store
