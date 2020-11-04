@@ -23,9 +23,7 @@ import meraki
 # Read the config file to get settings
 #MERAKI_API_KEY = os.getenv('API_KEY_PERSONAL')
 
-
-print ("This App will update SSIDs Name and PSK.\n\nEnter the API key to manage: ")
-MERAKI_API_KEY = input()
+MERAKI_API_KEY = input("This App will update SSIDs Name and PSK.\n\nEnter the API key to manage: ")
 
 baseurl = "https://dashboard.meraki.com/api/v1"
 
